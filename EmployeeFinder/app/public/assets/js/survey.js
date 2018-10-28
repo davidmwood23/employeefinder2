@@ -1,5 +1,6 @@
-$('#sumbit').on("click", function (event){
+$('#submit').on("click", function (event){
+
+    event.preventDefault()
 
 
-    
 })
