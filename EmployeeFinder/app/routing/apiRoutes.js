@@ -9,7 +9,13 @@ module.exports = function (app) {
     //console.log(employeeList);
     res.json(employeeList);
   });
-}
+};
+
+// app.post('/api/employees', function (req,res) {
+
+  // res.json(employeeList);
+// });
+
 
 
 
