@@ -1,4 +1,4 @@
-let EmployeeList = [
+module.exports = [
     {
         "name":"Ahmed",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
@@ -14,7 +14,18 @@ let EmployeeList = [
             4,
             1
           ]
-      }
+      },
+
+      
+    
+
+       
+
+
+
+
+
+      
       
 
 
@@ -24,4 +35,4 @@ let EmployeeList = [
 
 
 
-module.exports = EmployeeList
+
