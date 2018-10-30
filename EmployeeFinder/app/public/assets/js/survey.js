@@ -7,7 +7,7 @@ $('#submit').on("click", function (event){
     const userData = {
 
         name : $('#employeeName').val(),
-        photo : $('#photoEmployeeImage').val,
+        photo : $('#photoEmployeeImage').val(),
         scores : [
 
             $('#question1').val(),
@@ -34,6 +34,8 @@ $.post("/api/employees", userData, function(data) {
 
 console.log(data);
 
+$('#match-name').text(data.name);
+$('#match-picture').attr( "src", data.photo);
 
 });
 
